@@ -10,7 +10,7 @@ postgres=#
 
 =# You are now connected to database "postgres" as user "postgres".
 
-### - Create
+### - Create Table
 
 `CREATE TABLE citys (id INT NOT NULL, name VARCHAR(255));` *Column cannot consist nil* **NOT NULL**
 
@@ -24,19 +24,28 @@ Schema | Name  | Type  |  Owner
  public | citys | table | postgres  
 (1 row)
 
-### - Delete
+### - Delete Table
 
 `DROP TABLE citys;`
 
 =# DROP TABLE
 
-### - Insert
+### - Insert 
 
 `INSERT INTO citys(id, name)VALUES(1, 'String');`
 
 =# INSERT 0 1
 
 ### - Select
+
+`SELECT name FROM citys;`
+
+    name    
+------------
+ String
+ String2
+(2 rows)
+
 
 `SELECT * FROM citys LIMIT 2;` *You can use* **LIMIT** *for set count of rows* 
 
@@ -62,3 +71,22 @@ Schema | Name  | Type  |  Owner
 `UPDATE citys SET name = 'String' WHERE id = 2;` *Change name for one record with id = 2*
 
 =# UPDATE 1
+
+### - Delete
+
+`DELETE FROM citys WHERE id = 1;`
+
+=# DELETE 1
+
+### - Sorting
+
+`SELECT * FROM citys ORDER BY id DESC;` *You can use other operators* **DESC ASC**
+
+ id |    name    
+----+------------  
+  3 | String 3  
+  2 | String 2  
+  1 | String 1  
+(3 rows)
+
+
