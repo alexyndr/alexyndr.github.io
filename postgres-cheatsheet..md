@@ -38,7 +38,7 @@ Schema | Name  | Type  |  Owner
 
 ### - Select
 
-`select * from citys limit 2;`
+`select * from citys limit 2;` *You can use LIMIT for set count of rows* 
 
  id |  name   
 ----+---------  
@@ -46,9 +46,10 @@ Schema | Name  | Type  |  Owner
   2 | String2  
 (2 rows)
 
-`select * from citys where name = String2;`
+`select * from citys where name = String2;` *You can use other operators* **!= > >= < <=**
 
  id |  name   
 ----+---------  
   2 | String2  
 (1 row)
+
