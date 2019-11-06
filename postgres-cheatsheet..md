@@ -88,4 +88,26 @@ Schema | Name  | Type  |  Owner
   1 | String 1  
 (3 rows)
 
+### - Add column
 
+`ALTER TABLE citys ADD COLUMN death BOOLEAN NOT NULL DEFAULT TRUE;`
+
+=# ALTER TABLE
+
+### - Delete column
+
+`ALTER TABLE citys DROP COLUMN death;`
+
+=# ALTER TABLE
+
+### - Rename column
+
+`ALTER TABLE citys RENAME death TO life;`
+
+=# ALTER TABLE
+
+### - Change type column
+
+`ALTER TABLE citys ALTER COLUMN life SET DATA TYPE VARCHAR(255);`
+
+=# ALTER TABLE
