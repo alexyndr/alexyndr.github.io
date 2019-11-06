@@ -8,6 +8,11 @@ or
 
 `psql -U postgres`
 
-Connected to database "postgres" as user "postgres".
 
 `\connect`
+
+=# You are now connected to database "postgres" as user "postgres".
+
+`create table citys (id INT, name VARCHAR(255));`
+
+=# CREATE TABLE
