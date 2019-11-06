@@ -14,8 +14,6 @@ postgres=#
 
 `CREATE TABLE citys (id INT NOT NULL, name VARCHAR(255));` *Column cannot consist nil* **NOT NULL**
 
-=# CREATE TABLE
-
 `\d`
 
 =# List of relations  
@@ -27,8 +25,6 @@ Schema | Name  | Type  |  Owner
 ### - Delete Table
 
 `DROP TABLE citys;`
-
-=# DROP TABLE
 
 ### - Insert 
 
@@ -65,17 +61,11 @@ Schema | Name  | Type  |  Owner
 
 `UPDATE citys SET name = 'new String';` *Change name for all records*
 
-=# UPDATE 3
-
 `UPDATE citys SET name = 'String' WHERE id = 2;` *Change name for one record with id = 2*
-
-=# UPDATE 1
 
 ### - Delete
 
 `DELETE FROM citys WHERE id = 1;`
-
-=# DELETE 1
 
 ### - Sorting
 
@@ -92,22 +82,18 @@ Schema | Name  | Type  |  Owner
 
 `ALTER TABLE citys ADD COLUMN death BOOLEAN NOT NULL DEFAULT TRUE;`
 
-=# ALTER TABLE
-
 ### - Delete column
 
 `ALTER TABLE citys DROP COLUMN death;`
-
-=# ALTER TABLE
 
 ### - Rename column
 
 `ALTER TABLE citys RENAME death TO life;`
 
-=# ALTER TABLE
-
 ### - Change type column
 
 `ALTER TABLE citys ALTER COLUMN life SET DATA TYPE VARCHAR(255);`
 
-=# ALTER TABLE
+### - Rename Table
+
+`ALTER TABLE citys RENAME TO districts;`
