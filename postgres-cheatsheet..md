@@ -18,7 +18,7 @@ postgres=#
 
 `\d`
 
-List of relations  
+       List of relations  
 Schema | Name  | Type  |  Owner  
 --------+-------+-------+----------  
  public | citys | table | postgres  
