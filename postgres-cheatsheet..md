@@ -40,8 +40,8 @@ Schema | Name  | Type  |  Owner
 
 `SELECT name FROM citys;`
 
-name    
-------------  
+ name    
+----+--------  
  String  
  String2  
 (2 rows)  
