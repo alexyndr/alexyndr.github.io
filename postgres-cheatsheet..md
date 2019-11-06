@@ -40,12 +40,11 @@ Schema | Name  | Type  |  Owner
 
 `SELECT name FROM citys;`
 
-    name    
-------------
- String
- String2
-(2 rows)
-
+name    
+------------  
+ String  
+ String2  
+(2 rows)  
 
 `SELECT * FROM citys LIMIT 2;` *You can use* **LIMIT** *for set count of rows* 
 
