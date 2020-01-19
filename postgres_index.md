@@ -34,10 +34,10 @@ You will see all available indexes of your database_name
 
 `SELECT indexname,indexdef FROM pg_indexes WHERE tablename = 'table_name';`
 
- indexname       | indexdef   
------------------+---------  
- table_name_pkey | CREATE UNIQUE INDEX table_name_pkey ON public.table_name USING btree (id)  
- simple_index    | CREATE INDEX simple_index ON public.table_name USING btree (column_name)
+| indexname       | indexdef |
+|-----------------|:--------:|
+| table_name_pkey | CREATE UNIQUE INDEX table_name_pkey ON public.table_name USING btree (id) |
+| simple_index    | CREATE INDEX simple_index ON public.table_name USING btree (column_name)  |
 (2 rows)
 
 ---
