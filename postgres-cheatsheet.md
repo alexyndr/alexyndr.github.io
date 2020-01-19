@@ -22,8 +22,8 @@ postgres=#
 
 =# List of relations  
 | Schema | Name  | Type  |  Owner |
-|-------|:-----:|:-----:|-------:|  
-|public | citys | table | postgres| 
+|------:|:-----:|:-----:|-------:|  
+|public | citys | table | postgres | 
 
 (1 row)
 
