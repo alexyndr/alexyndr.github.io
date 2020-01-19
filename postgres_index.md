@@ -17,8 +17,8 @@ Duplicate values are allowed
 `=# \d table_name`
 
 Indexes:
-    "table_name_pkey" PRIMARY KEY, btree (id)
-    "simple_index" btree (column_name)  # previous created index
+"table_name_pkey" PRIMARY KEY, btree (id)
+"simple_index" btree (column_name)  # previous created index
 
 ---
 
@@ -38,6 +38,7 @@ You will see all available indexes of your database_name
 |-----------------|:--------:|
 | table_name_pkey | CREATE UNIQUE INDEX table_name_pkey ON public.table_name USING btree (id) |
 | simple_index    | CREATE INDEX simple_index ON public.table_name USING btree (column_name)  |
+
 (2 rows)
 
 ---
