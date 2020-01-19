@@ -18,9 +18,9 @@ Duplicate values are allowed
 
 Indexes:
 
-"table_name_pkey" PRIMARY KEY, btree (id)
+ - "table_name_pkey" PRIMARY KEY, btree (id)
 
-"simple_index" btree (column_name)  # previous created index
+ - "simple_index" btree (column_name)  **# previous created index**
 
 ---
 
