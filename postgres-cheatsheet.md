@@ -21,9 +21,9 @@ postgres=#
 `\d`
 
 =# List of relations  
-| Schema | Name  | Type  |  Owner |
-|------:|:-----:|:-----:|-------:|  
-|public | citys | table | postgres | 
+ Schema | Name  | Type  |  Owner 
+---|---|---|--- 
+public | citys | table | postgres 
 
 (1 row)
 
