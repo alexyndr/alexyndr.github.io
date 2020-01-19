@@ -17,7 +17,9 @@ Duplicate values are allowed
 `=# \d table_name`
 
 Indexes:
+
 "table_name_pkey" PRIMARY KEY, btree (id)
+
 "simple_index" btree (column_name)  # previous created index
 
 ---
