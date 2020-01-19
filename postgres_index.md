@@ -68,4 +68,4 @@ Duplicate values are not allowed
 
 ### - PostgreSQL Index Types
 
-Read about types (here)[https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/]
+Read about types [here](https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/)
